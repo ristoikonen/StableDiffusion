@@ -49,7 +49,7 @@ namespace StableDiffusion.ML.OnnxRuntime
                     sessionOptions.AppendExecutionProvider_CPU();
                     return sessionOptions;
 
-
+                    /*
                     //case ExecutionProvider.Cuda:
                     //    sessionOptions.GraphOptimizationLevel = GraphOptimizationLevel.ORT_ENABLE_ALL;
                     //    //default to CUDA, fall back on CPU if CUDA is not available.
@@ -57,7 +57,7 @@ namespace StableDiffusion.ML.OnnxRuntime
                     //    sessionOptions.AppendExecutionProvider_CPU();
                     //    //sessionOptions = SessionOptions.MakeSessionOptionWithCudaProvider(cudaProviderOptions);
                     //    return sessionOptions;
-
+                    */
 
 
             }
